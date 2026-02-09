@@ -1,5 +1,7 @@
 package Creational.Factory.bases;
-import Creational.Factory.products.*;
+import Creational.Factory.products.Foods.Burger;
+import Creational.Factory.products.Foods.BeefBurger;
+import Creational.Factory.products.Foods.ChickenBurger;
 
 public class SimpleRestaurant {
     public Burger orderBurger(String type) {

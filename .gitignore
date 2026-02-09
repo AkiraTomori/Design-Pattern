@@ -1,0 +1,7 @@
+/bin
+/obj
+/*.class
+/*.log
+/*.tmp
+/*.out
+/*.exe

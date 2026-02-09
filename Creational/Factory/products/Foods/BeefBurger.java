@@ -1,4 +1,4 @@
-package Creational.Factory.products;
+package Creational.Factory.products.Foods;
 
 public class BeefBurger implements Burger {
     @Override
