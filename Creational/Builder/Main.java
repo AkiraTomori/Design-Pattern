@@ -2,7 +2,8 @@ package Creational.Builder;
 
 import Creational.Builder.builders.*;
 import Creational.Builder.director.Director;
-import Creational.Builder.foods.Burger;
+import Creational.Builder.products.Burger;
+import Creational.Builder.products.Manual;
 import Creational.Builder.base.BurgerOld;
 public class Main {
     public static void main(String []agrs) {
@@ -26,7 +27,7 @@ public class Main {
         RecipeBurgerBuilder recipeBurgerBuilder = new RecipeBurgerBuilder();
         director.constructRecipe(recipeBurgerBuilder);
         System.out.println("--- Recipe Burger ---");
-        String recipe = recipeBurgerBuilder.getRecipe();
-        System.out.println(recipe);
+        Manual recipe = recipeBurgerBuilder.getRecipe();
+        recipe.show();
     }
 }

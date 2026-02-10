@@ -1,6 +1,6 @@
 package Creational.Builder.builders;
 
-import Creational.Builder.foods.Burger;
+import Creational.Builder.products.Burger;
 
 public class EatenBurgerBuilder implements BurgerBuilder {
     private Burger result = new Burger();

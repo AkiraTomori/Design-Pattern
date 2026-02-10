@@ -1,4 +1,4 @@
-package Creational.Builder.foods;
+package Creational.Builder.products;
 
 import java.util.ArrayList;
 import java.util.List;

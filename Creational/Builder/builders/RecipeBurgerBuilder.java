@@ -1,39 +1,41 @@
 package Creational.Builder.builders;
 
+import Creational.Builder.products.Manual;
+
 public class RecipeBurgerBuilder implements BurgerBuilder {
-    private String recipe = "";
+    private final Manual manual = new Manual();
     
     @Override
     public void setType(String type) {
-        recipe += "Burger Type: " + type + "\n";
+        manual.addLine("Burger Type: " + type);
     }
 
     @Override
     public void setBuns(int number) {
-        recipe += "Number of Buns: " + number + "\n";
+        manual.addLine("Number of Buns: " + number);
     }
 
     @Override
     public void setMeat(String meatType) {
-        recipe += "Meat Type: " + meatType + "\n";
+        manual.addLine("Meat Type: " + meatType);
     }
 
     @Override
     public void addCheese() {
-        recipe += "Includes Cheese\n";
+        manual.addLine("Includes Cheese");
     }
 
     @Override
     public void addVegatables() {
-        recipe += "Includes Vegetables\n";
+        manual.addLine("Includes Vegetables");
     }
 
     @Override
     public void addSauces() {
-        recipe += "Includes Sauces\n";
+        manual.addLine("Includes Sauces");
     }
 
-    public String getRecipe() {
-        return recipe;
+    public Manual getRecipe() {
+        return manual;
     }
 }

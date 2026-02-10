@@ -1,6 +1,5 @@
 package Creational.Builder.director;
 import Creational.Builder.builders.BurgerBuilder;
-import Creational.Builder.foods.Burger;
 
 public class Director {
     public void constructBigMac(BurgerBuilder builder) {
