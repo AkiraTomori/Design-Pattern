@@ -10,11 +10,23 @@ public class BurgerOld {
     private boolean isExtraMeat;
 
     public BurgerOld(String name, int buns, String meat) {
-        this(name, buns, meat, false, false, false, false);
+        this.name = name;
+        this.buns = buns;
+        this.meat = meat;
+        this.hasCheese = false;
+        this.hasVeggie = false;
+        this.hasSauce = false;
+        this.isExtraMeat = false;
     }
 
     public BurgerOld(String name, int buns, String meat, boolean hasCheese) {
-        this(name, buns, meat, hasCheese, false, false, false);
+        this.name = name;
+        this.buns = buns;
+        this.meat = meat;
+        this.hasCheese = hasCheese;
+        this.hasVeggie = false;
+        this.hasSauce = false;
+        this.isExtraMeat = false;
     }
 
     public BurgerOld(String name, int buns, String meat, boolean hasCheese, 

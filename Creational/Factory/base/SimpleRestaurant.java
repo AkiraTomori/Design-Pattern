@@ -1,4 +1,4 @@
-package Creational.Factory.bases;
+package Creational.Factory.base;
 import Creational.Factory.products.Foods.Burger;
 import Creational.Factory.products.Foods.BeefBurger;
 import Creational.Factory.products.Foods.ChickenBurger;
