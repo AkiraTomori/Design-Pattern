@@ -1,1 +1,2 @@
 Chọn 2 pattern
+Đề xuất Observer và Strategy

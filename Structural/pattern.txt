@@ -1,1 +1,2 @@
 Chọn 2 pattern
+Đề xuất: Adapter và Decorator
